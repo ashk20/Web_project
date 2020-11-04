@@ -1,2 +1,5 @@
 # Web_project
-Yoga website
+
+# ROBOSH YOGA
+Yoga website using html, css and javascript.
+
