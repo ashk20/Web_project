@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Book Now!!</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+            #sec{
+                background-color: #F0C9B4;
+                height:600px;
+            }
+            #details{
+                width:900px;
+                height:400px;
+                border: 1px solid grey;
+                border-radius: 60px;
+                position: relative;
+                left:300px;
+                top:50px;
+                background-color: aliceblue;
+                
+            }
+            #from{
+                float: left;
+                 margin-left: 100px;
+                font-size: 200%;
+            }
+            #to{
+                float: left;
+                margin-left: 100px;
+                font-size: 200%
+            }
+            #fromdrop{
+                width: 200px; height: 100px;
+            }
+            #time_date{
+                font-size: 200%;
+                position: relative;
+                left:-300px;
+                top:100px;
+            }
+            #done{
+                position: relative;
+                left:300px;
+                top:100px;
+                font-size: 200%;
+                padding:10px;
+
+            }
+        </style>
+    </head>
+    <body>
+        <div id="topbar">
+            <img src="l5.png"id="logo">
+            <p class="ask">
+                <img src="messge.png" class="askimg"> &nbsp;Have any question?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Free: +12 365 5233</p>
+            <p class="ask">
+                <img src="phone_1.png"  class="askimg"> &nbsp;Have any question?<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;Free: +12 365 5233</p>
+            <p id="comp">AirlineCompany</p>
+
+            <div id="menu">
+                <p>
+                    <a href="index.html" class="menu">HOME</a>
+                    <a href="" class="menu">ABOUT</a>
+                    <a href="" class="menu">PARTNERS</a>
+                    <a href="" class="menu">CONTACT</a>
+                    <a href="" class="menu">HELP</a>
+                </p>
+            </div>
+            <marquee direction="right" id="marq"><img src="main_logo.png" id="marqimg"></marquee>
+        </div>
+        <div id="sec">
+        <div id="details">
+            <form>
+            <p id="from">From<br>
+                <select id="formdrop" required>
+
+                    <option>aurangabad</option>
+                     <option>Mumbai</option>
+                     <option>Chennai</option>
+                     <option>Hydrabad</option>
+                </select>
+            </p>
+            <p id="to">To<br>
+                 <select id="formdrop" required>
+
+                    <option>aurangabad</option>
+                     <option>Mumbai</option>
+                     <option>Chennai</option>
+                     <option>Hydrabad</option>
+                </select>
+            </p>
+            <div id="time_date">
+                <p id="date">Date:<input type="date" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Time:<input type="time" required></p>
+                <p>No. of Seats:<input type="number" required></p>
+            </div>
+                <p><input type="submit" value="DONE!!" id="done"></p>
+            </form>
+        </div>
+        </div>
+        <script type="text/javascript">
+            document.getElementById("done").onclick = function(){
+               alert("You have sucessfully Made your Reservation!!");
+            }
+        </script>
+    </body>
+</html>

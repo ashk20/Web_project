@@ -1,0 +1,112 @@
+            body{
+                padding: 0;
+                margin: 0;
+            }
+            #logo{
+                width: 100px;
+                height: 60px;
+                float: left;
+                position: relative;
+                top: 20px;
+                left:90px
+            }
+            .ask{
+                float: right;
+                margin-right: 20px;
+                margin-top: 50px;
+                font-size: 140%
+            }
+            #call{
+              position: relative;
+              left:-50px;
+            }
+            .askimg{
+                width:30px;
+                height:30px;
+                position:relative;
+                top:20px
+            }
+            #comp{
+                font-family:serif;
+                font-size: 220%;
+                position: relative;
+                left: 100px;
+                top: 30px
+            }
+            #topbar{
+                height:180px;
+                background-color: aliceblue;
+                padding-bottom: 0px;
+            }
+            .menu{
+                font-size: 110%;
+                padding: 40px;
+                margin-left: 40px;
+                margin-bottom: 0px;
+                position: relative;
+                top: 0px;
+                text-decoration: none;
+                color: black;
+                font-family: serif;
+                float:left;
+            }
+            .menu:hover{
+                text-decoration: underline;
+                font-size: 120%;
+                color: palevioletred;
+            }
+            #marq{
+                position: relative;
+                top:-25px;
+            }
+            #marqimg{
+                width:80px;
+                height: 50px;
+                float: left;
+                position: relative;
+                top:-10px;
+            }
+            #bg{
+                height: 100%;
+                width: 100%;
+                position: relative;
+                top:-25px;
+                background-image: url(yoga10.jpg);
+                image-resolution:from-image;
+                opacity: 0.7;
+            }
+
+            #title{
+                color: red;
+                font-size: 450%;
+                font-family: "Playfair Display", serif;
+                position: relative;
+                left:300px;
+                top:150px;
+            }
+            #subtitle{
+                color: red;
+                font-size: 180%;
+                position: relative;
+                left:530px;
+                top:200px;
+                font-family: "Playfair Display", serif;
+            }
+            #book{
+                border:5px solid black;
+                font-size: 300%;
+                color: black;
+                text-decoration: none;
+                position: relative;
+                top:160px;
+                left:450px;
+                padding: 2px;
+            }
+            #book:hover{
+                background-color: black;
+                color: white;
+            }
+          #menu
+          {
+            font-size: 100%;
+            }
